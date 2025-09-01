@@ -5,6 +5,7 @@
 #### Задача: добавить методы в прототипы
 
 console.log('test'.plus('-test')); // должен вернуть "test-test"
+
 console.log(9..plus(3)); // должен вернуть "12"
 
 ### JavaScript Event Loop
