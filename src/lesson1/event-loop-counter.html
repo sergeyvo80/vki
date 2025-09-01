@@ -1,0 +1,29 @@
+<html>
+
+<body>
+
+<div id="counter">
+0
+</div>
+
+
+<script>
+
+let i = 0;
+
+function count() {
+  do {
+    i++;
+    document.getElementById('counter').innerHTML = i;
+  } while(i % 1e5 !== 0);
+
+  // TODO: сделать чтоб счетчик обновлялся через каждые 100 итераций
+}
+
+count();
+
+</script>
+
+</body>
+
+</html>

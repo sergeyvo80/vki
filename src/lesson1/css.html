@@ -1,0 +1,48 @@
+<head>
+  <style>
+
+  :root {
+    --color1: #f00;
+    --color2: #0f0;
+    --color3: #00f;
+  }
+
+  div {
+    background-color: var(--color1);
+    height: 100px;
+  }
+
+  #test {
+    background-color: var(--color2);
+  }
+
+  .test {
+    background-color: var(--color3);
+
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    margin: 50px auto;
+  }
+
+/* применять эти стили для ширины экрана до 1024px
+    .test {
+      width: на всю ширину экрана
+      font-size: резиновый размер шрифта 
+      должен меняться в зависимости от ширины экрана;
+    }
+*/
+
+
+  </style>
+</head>
+
+<body>
+
+  <div id="test" class="test">
+    Test Container
+  </div>
+
+</body>
