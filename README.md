@@ -53,3 +53,5 @@ CSS дока - https://doka.guide/css/
 Событийный цикл: микрозадачи и макрозадачи - https://learn.javascript.ru/event-loop
 
 ES6 по-человечески - https://habr.com/ru/articles/305900/
+
+Событийный цикл (event-loop): микрозадачи и макрозадачи - https://learn.javascript.ru/event-loop
