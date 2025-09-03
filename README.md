@@ -8,6 +8,8 @@ console.log('test'.plus('-test')); // должен вернуть "test-test"
 
 console.log(9..plus(3)); // должен вернуть "12"
 
+### CSS
+
 ### JavaScript Event Loop
 
 #### Задача 1: реализовать счетчик
@@ -15,8 +17,6 @@ console.log(9..plus(3)); // должен вернуть "12"
 
 #### Задача 2: объяснить последовательность работы
 src/lesson1/event-loop-promise.js
-
-### CSS
 
 #### Задача:
 - посмотреть css переменные
@@ -53,5 +53,3 @@ CSS дока - https://doka.guide/css/
 Событийный цикл: микрозадачи и макрозадачи - https://learn.javascript.ru/event-loop
 
 ES6 по-человечески - https://habr.com/ru/articles/305900/
-
-Событийный цикл (event-loop): микрозадачи и макрозадачи - https://learn.javascript.ru/event-loop
