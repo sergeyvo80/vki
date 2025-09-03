@@ -3,10 +3,23 @@
 ### JavaScript - прототипное наследование
 
 #### Задача: добавить методы в прототипы
+src/lesson1/ptototype.html
 
 console.log('test'.plus('-test')); // должен вернуть "test-test"
 
 console.log(9..plus(3)); // должен вернуть "12"
+
+### JavaScript - hoisting (поднятие)
+src/lesson1/hoisting.js
+
+Объяснить поведение отличие вызовов перед инициализацией переменных объявленный через var и const, let
+
+#### Задача: добавить методы в прототипы
+
+console.log('test'.plus('-test')); // должен вернуть "test-test"
+
+console.log(9..plus(3)); // должен вернуть "12"
+
 
 ### CSS
 
