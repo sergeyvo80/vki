@@ -10,7 +10,7 @@ console.log('test'.plus('-test')); // должен вернуть "test-test"
 console.log(9..plus(3)); // должен вернуть "12"
 
 ### JavaScript - hoisting (поднятие)
-src/lesson1/hoisting.js
+src/lesson1/hoisting.html
 
 #### Задача
 Объяснить поведение отличие вызовов перед инициализацией переменных объявленный через var и const, let
