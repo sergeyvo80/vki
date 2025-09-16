@@ -27,6 +27,10 @@
 - [Почему браузеры ограничивают JavaScript таймеры?](https://habr.com/ru/articles/945872/)
 - [Способы разделения длительных задач в JavaScript](https://habr.com/ru/companies/timeweb/articles/882418/)
 
+### TypeScript
+- [TypeScript документация](https://www.typescriptlang.org)
+- [TypeScript Cheat Sheet](https://doabledanny.gumroad.com/l/typescript-cheat-sheet-pdf)
+
 ### Архитектура
 - [Паттерны и рефакторинг](https://refactoringguru.cn/ru)
 - [Архитектура фронтенда и какой она должна быть](https://habr.com/ru/articles/667214/)
