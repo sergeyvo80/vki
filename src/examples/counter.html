@@ -1,0 +1,67 @@
+<button id="button">count</button>
+<div>Click count: <span id="clickCount">0</span></div>
+<div>Loop count: <span id="loopCount">0</span></div>
+
+<script>
+
+/*
+  function waitSync(milliseconds) {
+    const start = Date.now();
+    while (Date.now() - start < milliseconds) {}
+  }
+
+  button.addEventListener("click", () => {
+    clickCount.innerText = Number(clickCount.innerText) + 1;
+  });
+
+  const items = new Array(100).fill(null);
+
+  for (const i of items) {
+    loopCount.innerText = Number(loopCount.innerText) + 1;
+    waitSync(50);
+  }
+*/
+
+
+/*
+function processItems(items, index) {
+  index = index || 0;
+  var currentItem = items[index];
+
+  console.log("processing item:", currentItem);
+
+  if (index + 1 < items.length) {
+    setTimeout(function () {
+      processItems(items, index + 1);
+    }, 0);
+  }
+}
+
+processItems(["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]);
+*/
+
+
+  function waitSync(milliseconds) {
+    const start = Date.now();
+    while (Date.now() - start < milliseconds) {}
+  }
+
+  button.addEventListener("click", () => {
+    clickCount.innerText = Number(clickCount.innerText) + 1;
+  });
+
+  (async () => {
+    const items = new Array(100).fill(null);
+
+    for (const i of items) {
+      loopCount.innerText = Number(loopCount.innerText) + 1;
+
+      await new Promise((resolve) => setTimeout(resolve, 0));
+
+      waitSync(50);
+    }
+  })();
+  
+
+
+</script>
